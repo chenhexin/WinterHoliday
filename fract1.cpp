@@ -46,6 +46,8 @@ void fraction::normalize()
 	int n = gcf(num, den);
 	num /= n;
 	den /= n;
+
+	return ;
 }
 
 int fraction::gcf(int a, int b)
@@ -89,8 +91,6 @@ int main(void)
 		}
 
 	}
-
-	
 
 	return 0;
 }
